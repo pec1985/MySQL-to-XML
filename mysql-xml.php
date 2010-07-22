@@ -29,11 +29,6 @@ while ($row1 = mysql_fetch_row($result1)) {
 		echo "\t\t</".$row1[0].">\n";
 		}
 
-   
-   
-    
-
-    
 }
-echo "\t</marcos>\n";
+echo "\t</".$database.">\n";
 ?>
